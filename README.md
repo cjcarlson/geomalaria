@@ -3,5 +3,6 @@ Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redist
 
 # Directory
 
-Raw Temperature Change G3.R --- generates Figure S5 and S6
-Raw Temperature Change GLENS.R --- generates Figure S7 and S8
+Raw Temperature Change G3.R -- generates Figure S5 and S6
+
+Raw Temperature Change GLENS.R -- generates Figure S7 and S8
