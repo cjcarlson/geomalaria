@@ -3,7 +3,7 @@ Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redist
 
 # Directory
 
-### Visualization Scripts
+There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third paper.
 
 ```
 Visualization
@@ -14,6 +14,7 @@ Visualization
 |
 ├─## REQUIRES OUTPUTS FROM "GENERATE R0" SCRIPTS
 ├─Raw Temperature Change G3.R -- generates Figure S5 and S6
+
 
 Generate R0
 |
@@ -38,5 +39,4 @@ Generate R0
 |
 ├─## THEN THIS
 └─Future R0 Consolidate.R
-
 ```
