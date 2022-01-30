@@ -13,7 +13,8 @@ Visualization
 ├─Raw Temperature Change GLENS.R -- generates Figure S7 and S8
 |
 ├─## REQUIRES OUTPUTS FROM "GENERATE R0" SCRIPTS
-└─R0 Visualization - Figures 1 and 2.R -- generates Figures 1 and 2
+├─R0 Visualization - Figures 1 and 2.R -- generates Figures 1 and 2
+├─Prevalence Visualization - supplemental figures.R -- generates Figures S9-S11
 |
 ├─## REQUIRES OUTPUTS FROM "GENERATE PAR" SCRIPTS
 └PAR Visualization - Figure 3 and others.R -- generates Figure 3 and Figure S1-S4
