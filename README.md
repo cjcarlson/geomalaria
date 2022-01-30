@@ -20,7 +20,7 @@ Raw
 ├─map_Anstephensi_Pvivax_08_12_20.csv
 |
 ├─Populations
-|  └ (...) # This is a folder of netcdf files for population projections in decade slices for SSP 2 and SSP5
+  |  └ (...) # A folder of .nc files: population projections in decade slices for SSP 2 and SSP5
 |
 
 ```
