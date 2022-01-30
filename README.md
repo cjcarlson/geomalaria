@@ -13,16 +13,23 @@ Raw
 ├─2020_GBD2019_Global_PfPR_2019.tif
 ├─2020_GBD2019_Global_PvPR_2000.tif
 ├─2020_GBD2019_Global_PvPR_2019.tif
+|
+├─## These are the raw Bayesian thermal response curves used to generate the R0 maps 
+├─map_Angambiae_Pfalc_08_12_20.csv
+├─map_Angambiae_Pvivax_08_12_20.csv
+├─map_Anstephensi_Pvivax_08_12_20.csv
 ```
 
 # Directory of Code
 
-There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third paper.
+There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third folder.
+
+THese are the visualization scripts:
 
 ```
 Visualization
 |
-├─## THESE CAN BE RUN WITH RAW DATA
+├─## THESE CAN BE RUN WITH JUST THE RAW CLIMATE DATA
 ├─Raw Temperature Change G3.R -- generates Figure S5 and S6
 ├─Raw Temperature Change GLENS.R -- generates Figure S7 and S8
 |
