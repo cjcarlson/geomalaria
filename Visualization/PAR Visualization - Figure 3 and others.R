@@ -432,32 +432,32 @@ library(magrittr)
 all.malaria %<>% filter(years <= 2070)
 
 ### VERSION 1
-
-all.malaria %>% 
-  filter(risk=='stable') %>%
-  group_by(Scenario, years, run) %>%
-  summarize(PAR = sum(PAR)/1000) %>%
-  ungroup() %>%
-  group_by(Scenario, years) %>%
-  summarize(PAR = mean(PAR)) %>%
- # filter(years > 2020) %>%
-  mutate(Baseline = recode(Scenario, !!!level_key),
-         SRM = recode(Scenario, !!!level_key2)) %>% 
-  ggplot() + 
-  facet_wrap(~ Baseline) + theme_few() + xlab(NULL) + 
-  theme(text = element_text(family = 'Roboto'),
-        axis.text.x = element_text(hjust = 1, vjust = 1, angle=45, size = 10),
-        axis.title.y = element_text(vjust = 5),
-        legend.text = element_text(size = 10),
-        strip.text = element_text(size = 13),
-        plot.margin = margin(0.75, 0.75, 0.75, 0.75, "cm"),
-        legend.position = c(0.11,0.88),
-        legend.background = element_blank(),
-        panel.grid.major.y = element_line(color='light grey')) + 
-  ylab('Populations at highest risk (bil.)') + 
-  labs(color=NULL) + scale_color_few() + 
-  geom_line(aes(x=years, y=PAR, color=SRM), lwd=0.6) + 
-  geom_point(aes(x=years, y=PAR, color=SRM), cex=1.6) 
+# 
+# all.malaria %>% 
+#   filter(risk=='stable') %>%
+#   group_by(Scenario, years, run) %>%
+#   summarize(PAR = sum(PAR)/1000) %>%
+#   ungroup() %>%
+#   group_by(Scenario, years) %>%
+#   summarize(PAR = mean(PAR)) %>%
+#  # filter(years > 2020) %>%
+#   mutate(Baseline = recode(Scenario, !!!level_key),
+#          SRM = recode(Scenario, !!!level_key2)) %>% 
+#   ggplot() + 
+#   facet_wrap(~ Baseline) + theme_few() + xlab(NULL) + 
+#   theme(text = element_text(family = 'Roboto'),
+#         axis.text.x = element_text(hjust = 1, vjust = 1, angle=45, size = 10),
+#         axis.title.y = element_text(vjust = 5),
+#         legend.text = element_text(size = 10),
+#         strip.text = element_text(size = 13),
+#         plot.margin = margin(0.75, 0.75, 0.75, 0.75, "cm"),
+#         legend.position = c(0.11,0.88),
+#         legend.background = element_blank(),
+#         panel.grid.major.y = element_line(color='light grey')) + 
+#   ylab('Populations at highest risk (bil.)') + 
+#   labs(color=NULL) + scale_color_few() + 
+#   geom_line(aes(x=years, y=PAR, color=SRM), lwd=0.6) + 
+#   geom_point(aes(x=years, y=PAR, color=SRM), cex=1.6) 
 
 
 
