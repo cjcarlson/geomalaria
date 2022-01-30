@@ -13,6 +13,11 @@ Raw
 ├─2020_GBD2019_Global_PfPR_2019.tif
 ├─2020_GBD2019_Global_PvPR_2000.tif
 ├─2020_GBD2019_Global_PvPR_2019.tif
+|
+├─## These are the raw Bayesian thermal response curves used to generate the R0 maps 
+├─map_Angambiae_Pfalc_08_12_20.csv
+├─map_Angambiae_Pvivax_08_12_20.csv
+├─map_Anstephensi_Pvivax_08_12_20.csv
 ```
 
 # Directory of Code
