@@ -18,6 +18,11 @@ Raw
 ├─map_Angambiae_Pfalc_08_12_20.csv
 ├─map_Angambiae_Pvivax_08_12_20.csv
 ├─map_Anstephensi_Pvivax_08_12_20.csv
+|
+├─Populations
+|  └ (...) # This is a folder of netcdf files for population projections in decade slices for SSP 2 and SSP5
+|
+
 ```
 
 # Directory of Code
