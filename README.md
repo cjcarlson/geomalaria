@@ -1,7 +1,21 @@
 # Malaria and geoengineering forecasts
 Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redistribute malaria risk in developing countries." _Nature Communications_, accepted in principle.
 
-# Directory
+# Raw files
+
+There are several components for the pipeline (below) in the Raw folder; larger climate files are stored elsewhere[...add...] 
+
+```
+Raw
+|
+├─## These are falciparum / vivax prevalence files that go into Figures S9-S11
+├─2020_GBD2019_Global_PfPR_2000.tif
+├─2020_GBD2019_Global_PfPR_2019.tif
+├─2020_GBD2019_Global_PvPR_2000.tif
+├─2020_GBD2019_Global_PvPR_2019.tif
+```
+
+# Directory of Code
 
 There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third paper.
 
