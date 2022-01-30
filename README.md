@@ -22,12 +22,14 @@ Raw
 
 # Directory of Code
 
-There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third paper.
+There are three folders' worth of scripts to execute the entire pipeline in the paper. Two multi-step pipelines turn climate data into derived products (the R0 analysis and the population at risk, or PAR, analysis). All the code to produce visualizations in the paper is stored in a third folder.
+
+THese are the visualization scripts:
 
 ```
 Visualization
 |
-├─## THESE CAN BE RUN WITH RAW DATA
+├─## THESE CAN BE RUN WITH JUST THE RAW CLIMATE DATA
 ├─Raw Temperature Change G3.R -- generates Figure S5 and S6
 ├─Raw Temperature Change GLENS.R -- generates Figure S7 and S8
 |
