@@ -1,12 +1,15 @@
 # Malaria and geoengineering forecasts
-Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redistribute malaria risk in developing countries." _Nature Communications_, accepted in principle.
+Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redistribute malaria risk in developing countries." _Nature Communications_, in press.
 
 # Raw files
 
-There are several components for the pipeline (below) in the Raw folder; larger climate files are stored elsewhere[...add...] 
+There are several components for the pipeline (below) in the Raw folder; 250GB of larger climate files are stored at a Dryad repository.
 
 ```
 Raw
+|
+├─Populations
+|  └ (...) # A folder of .nc files: population projections in decade slices for SSP 2 and SSP5
 |
 ├─## These are falciparum / vivax prevalence files that go into Figures S9-S11
 ├─2020_GBD2019_Global_PfPR_2000.tif
@@ -17,12 +20,7 @@ Raw
 ├─## These are the raw Bayesian thermal response curves used to generate the R0 maps 
 ├─map_Angambiae_Pfalc_08_12_20.csv
 ├─map_Angambiae_Pvivax_08_12_20.csv
-├─map_Anstephensi_Pvivax_08_12_20.csv
-|
-├─Populations
-|  └ (...) # A folder of .nc files: population projections in decade slices for SSP 2 and SSP5
-|
-
+└─map_Anstephensi_Pvivax_08_12_20.csv
 ```
 
 # Directory of Code
