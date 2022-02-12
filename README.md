@@ -1,6 +1,8 @@
 # Malaria and geoengineering forecasts
 Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redistribute malaria risk in developing countries." _Nature Communications_, in press.
 
+[![DOI](https://zenodo.org/badge/371186814.svg)](https://zenodo.org/badge/latestdoi/371186814)
+
 # Raw files
 
 There are several components for the pipeline (below) in the Raw folder; 250GB of larger climate files are stored at a Dryad repository.
