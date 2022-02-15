@@ -5,7 +5,7 @@ Codebase accompanies: Carlson _et al._ (2022) "Solar geoengineering could redist
 
 # Raw files
 
-There are several components for the pipeline (below) in the Raw folder; 250GB of larger climate files are stored at a Dryad repository.
+There are several components for the pipeline (below) in the Raw folder; 250GB of larger climate files are stored at a [Dryad repository](https://datadryad.org/stash/dataset/doi:10.5061%2Fdryad.7m0cfxpwg).
 
 ```
 Raw
